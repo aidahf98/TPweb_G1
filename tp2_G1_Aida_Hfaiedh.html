@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+<body>
+    <header>
+        <h1>Inscription des Etudiants</h1>
+    </header>
+
+    <fieldset>
+
+        <legend><h2>Informations Personnelles</h2></legend>
+
+        <label for="e-nom">Nom:</label>
+        <input type="text" id="e-nom" name="nom" placeholder="Votre nom"><br>
+        <label for="e-prenom">Prénom:</label>
+        <input type="text" id="e-prenom" name="prénom" placeholder="Votre prénom"><br>
+        <label for="e-dnaissance">Date de naissance:</label>
+        <input type="date" name="naissance" id="e-dnaissance"><br>
+        <label for="e-lnaissance">Lieu de naissance:</label>
+        <input type="text" id="e-lnaissance" name="naissance" placeholder="ex:Tunis"><br>
+        <label for="e-gender">Sexe:</label>
+        <label for="e-gender-female">Féminin</label>
+        <input type="radio" name="gender" id="e-gender-female" value="féminin">
+        <label for="e-gender-male"> Masculin</label>
+        <input type="radio" name="gender" id="e-gender-male" value="masculin"><br>
+        <label for="e-nationalité">Nationalité:</label>
+        <input type="text" id="e-nationalité" name="nationalité" placeholder="ex:Tunisienne"><br>
+        <label for="e-email">e-Mail:</label>
+        <input type="email" name="email" id="e-email" placeholder="pseudo@gmail.com"><br>
+        <label for="e-telephone">Téléphone:</label>
+        <input type="tel" name="téléphone" id="e-telephone" placeholder="+216 ** *** ***"><br>
+        <label for="e-niveau">Niveau:</label>
+        <select name="niveau" id="e-niveau">
+            <option value="1ere année">1ére année</option>
+            <option value="2eme année">2éme année</option>
+            <option value="3eme année">3éme année</option>
+        </select><br>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+        
+
+    </fieldset>
+
+</body>
+</html>
